@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { fetchRepoContext, normalizeRepoInput } from "@/lib/github";
-import { synthesizePrompt } from "@/lib/openrouter";
+import { synthesizePrompt } from "@/lib/llm";
 
 type AnalyzeRequest = {
   repo?: string;
